@@ -91,10 +91,14 @@
 
 <h2>6. Third-Party Services</h2>
 <ul>
-    <li><strong>Google (Gemini AI)</strong> — processes chat messages
-    to generate replies. Google's Gemini API does not use prompts or
-    responses to train models. See
+    <li><strong>Google (Gemini AI)</strong> — primary AI provider that
+    processes chat messages to generate replies. Google's Gemini API
+    (paid tier) does not use prompts or responses to train models. See
     <a href="https://ai.google.dev/gemini-api/terms">Google's API terms</a>.</li>
+    <li><strong>Anthropic (Claude AI)</strong> — backup AI provider
+    used when the primary provider is unavailable. Anthropic does not
+    use API inputs to train models. See
+    <a href="https://www.anthropic.com/legal/privacy">Anthropic's policies</a>.</li>
     <li><strong>Wikipedia</strong> — the App may fetch publicly available
     images from Wikipedia to illustrate topics. No user data is sent to
     Wikipedia.</li>
